@@ -24,7 +24,7 @@ const printHelp = () => {
 const printWeather = (response, icon) => {
   console.log(
     dedent`${bgCyan(' WEATHER ')} Weather in the city: ${response.name}
-    ${icon}  ${response.weather[0].description}
+    ${icon} ${response.weather[0].description}
     Temperature: ${response.main.temp} (feels like ${response.main.feels_like})
     Humidity: ${response.main.humidity} %
     Wind speed: ${response.wind.speed} m/s
