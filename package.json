@@ -1,10 +1,10 @@
 {
-  "name": "weather-cli",
+  "name": "weather-cli-testdemo",
   "version": "1.0.0",
   "description": "CLI tool for getting weather",
   "main": "weather.js",
   "bin": {
-    "weather": "./weather.js"
+    "weather": "weather.js"
   },
   "type": "module",
   "scripts": {
